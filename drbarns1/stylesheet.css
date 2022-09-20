@@ -460,7 +460,7 @@ body{
     }
     .payment img{
         width: 290px;
-      
+        margin-top: 8%;
         align-items: center;
     }
     .sponsors{
@@ -512,12 +512,12 @@ body{
         border: none;
     }
     .marketing{
-        width: 96%;
+        width: 98%;
         object-fit:contain;
         border-radius: 7px;
-        margin-bottom: 0;
-        margin-top: 60%;
-        margin-left:0.7rem;
+        margin-bottom: -5rem;
+        margin-top: 7%;
+        margin-left:0.3rem;
     }
     .footer .logo1{
         width: 15%;
@@ -531,4 +531,147 @@ body{
         padding: 2%;
         padding-bottom: 0;
      }
+}
+
+@media only screen and ( max-width:1500px) and (min-width:1113px){
+
+    ul{
+        margin-left: 12%;
+    }
+
+    .spotlight img{
+        width: 400px;
+        height: 70vh;
+    }
+    .teamwork img{
+        width: 400px;
+        height: 70vh;
+    }
+    .tools img{
+        width: 400px;
+        height: 70vh;
+    }
+    .marketing{
+        margin-top: 50%;
+        width: 97%;
+    }
+    footer{
+        font-size: 1.4rem;
+    }
+
+    /* *{
+        width: auto;
+    }
+    .center h1{
+        padding-top: 16%;
+        font-size: 5rem;
+    }
+    .center{
+        width: 183%;
+    }
+    .center p{
+        font-size: 2.2rem;
+        line-height: 3.5rem;
+    }
+    .ptag{
+        width: 78%;
+    }
+    .partners{
+        margin-left: 45%;
+        width: 100%;
+    }
+    .spotlight{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 40%;
+        display: flex;
+    }
+    .spotlight p{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .spotlight img{
+        width: 400px;
+        height: 70vh;
+    }
+
+    .teamwork{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 40%;
+        display: flex;
+    }
+    .teamwork p{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .teamwork img{
+        width: 400px;
+        height: 70vh;
+    }
+
+    .tools{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin-left: 40%;
+        display: flex;
+    }
+    .tools p{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .tools img{
+        width: 400px;
+        height: 70vh;
+    }
+
+    .sponsors img{
+       margin-left: 15%;
+    }
+
+    .sponsors p {
+        width: 100%;
+        font-size: 3rem;
+        margin-top: 20%;
+        margin-left: 43%;
+    }
+
+    .sponsors.piggy{
+        width: 140px;
+        margin-left: 7%;
+    }
+    .wave{
+        width: 160px;
+        margin-left: 6rem;
+    }
+    .google{
+        width: 60px;
+        margin-left: 5rem;
+    }
+    .kuda{
+        width: 60px;
+        margin-left: 0;
+    }
+    .flutter{
+        width: 60px;
+        margin-left: 5rem;
+    }
+
+    .payment{
+        margin-left: 90%;
+        justify-content: space-around;
+    }
+    .p{
+        font-size: 2rem;
+    }
+
+
+
+    .footer{
+        flex-wrap: nowrap;
+        width: 100%;
+    } */
 }
